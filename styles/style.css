@@ -1,10 +1,72 @@
-* {
+/** Explication site **/
+
+.explication-site{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000a1;
+}
+
+.expliaction-div{
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: red;
+}
+
+.explication-lien{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.none{
+    display: none;
+}
+
+/** Style récurrents **/
+
+body {
+    width: 100%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: #000;
     list-style-type: none;
     text-decoration: none;
-    font-family: 'Poppins';
-    color: #fff38a
+    font-family: 'Arial';
+    font-size: 18px;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+.text{
+    font-weight: bold;
+}
+
+.littleText{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
