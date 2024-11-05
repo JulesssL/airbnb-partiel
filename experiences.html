@@ -8,18 +8,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/experiences.css">
     <link rel="icon" href="ressources/img/" type="image/x-icon">
-    <title>Airbnb</title>
+    <title>Airbnb - Expériences</title>
 </head>
 
 <body>
     
     
     <header>
-        <a href="index.html"><img class="logo-header reveal-4" src="ressources/img/Airbnb_Logo_Bélo.svg.png" alt="Notre logo - Revenir à l'accueil"></a>
-        <div class="profil-header reveal-5">
+        <a href="index.html"><img class="logo-header reveal-1" src="ressources/img/Airbnb_Logo_Bélo.svg.png" alt="Notre logo - Revenir à l'accueil"></a>
+        <div class="profil-header reveal-2">
             <a class="btn-header" href="#">Mettre mon logement sur Airbnb</a>
-            <div class="div-profil-img ">
+            <div class="div-profil-img">
                 <img class="profil-img" src="ressources/img/profile-circle.svg" alt="Photo de profil">
                 <div class="popup-profil-pic none">
                     <div id="popupContent">
@@ -37,36 +38,42 @@
 
     <main>
 
-        <section class="hero">
-            <h1 class="hero-title reveal-1">Bienvenue à la maison !</h1>
-            <form class="hero-search reveal-2" action="">
-                <div class="hero-search-left">
-                    <div class="hero-div">
-                        <label for="destination">Destination</label>
-                        <input type="text" name="destination" class="hero-input" placeholder="Rechercher une destination">
-                    </div>
-                    <div class="hero-div">
-                        <label for="date-arrivee">Arrivée</label>
-                        <input type="date" placeholder="Quand ?" name="date-arrivee" class="hero-input">
-                    </div>
-                    <div class="hero-div">
-                        <label for="date-depart">Départ</label>
-                        <input type="date" name="date-depart" class="hero-input">
-                    </div>
-                    <div class="hero-div">
-                        <label for="nb-personnes">Voyageurs</label>
-                        <input type="number" placeholder="Combien ?" name="nb-personnes" class="hero-input" min="1" max="10">
-                    </div>
-                </div>
-                <div class="hero-search-right">
-                    <button type="submit" class="hero-submit"><img class="hero-submit-img" src="ressources/img/Search.svg" alt="Faire une recherche"></button>
-                </div>
-            </form>
-            <div class="hero-btns reveal-3">
-                <a class="hero-btn" href="logments.html">Réserver un logement</a>
-                <a class="hero-btn" href="experiences.html">Réserver une expérience</a>
+        <a class="experience-div bg-y reveal-3" href="#">
+            <img class="experience-img" src="ressources/img/image 9.png" alt="">
+            <div class="experience-div-content">
+                <h2 class="experience-title">Restaurant</h2>
+                <p class="experience-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis turpis eget velit feugiat, auctor pellentesque ex semper. Sed vulputate, ex vel condimentum ultricies, nunc quam consectetur velit, in dictum neque nunc at velit.
+                </p>
             </div>
-        </section>
+        </a>
+        <a class="experience-div bg-o reveal-4" href="#">
+            <img class="experience-img" src="ressources/img/image 10.png" alt="">
+            <div class="experience-div-content">
+                <h2 class="experience-title">Escalade</h2>
+                <p class="experience-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis turpis eget velit feugiat, auctor pellentesque ex semper. Sed vulputate, ex vel condimentum ultricies, nunc quam consectetur velit, in dictum neque nunc at velit.
+                </p>
+            </div>
+        </a>
+        <a class="experience-div bg-r reveal-5" href="#">
+            <img class="experience-img" src="ressources/img/image 11.png" alt="">
+            <div class="experience-div-content">
+                <h2 class="experience-title">Atypique</h2>
+                <p class="experience-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis turpis eget velit feugiat, auctor pellentesque ex semper. Sed vulputate, ex vel condimentum ultricies, nunc quam consectetur velit, in dictum neque nunc at velit.
+                </p>
+            </div>
+        </a>
+        <a class="experience-div bg-p reveal-6" href="#">
+            <img class="experience-img" src="ressources/img/image 12.png" alt="">
+            <div class="experience-div-content">
+                <h2 class="experience-title">Parc d'attraction</h2>
+                <p class="experience-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis turpis eget velit feugiat, auctor pellentesque ex semper. Sed vulputate, ex vel condimentum ultricies, nunc quam consectetur velit, in dictum neque nunc at velit.
+                </p>
+            </div>
+        </a>
 
     </main>
 
