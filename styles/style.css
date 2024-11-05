@@ -368,6 +368,57 @@ footer{
         display:none;
     }
 
+    /** Hero **/
+
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        gap: 6em;
+    }
+
+    .hero-title{
+        color: #fabc3f;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Cocon';
+    }
+
+    .hero-btns{
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .hero-btn{
+        width: 80%;
+        margin: auto;
+    }
+
+    .hero-search{
+        display: none;
+        
+    }
+
+    .hero-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .hero-input{
+        color: grey;
+        padding: 1em 0;
+        border: none;
+        background-color: #00000000;
+    }
+
+    input[type='number']{
+        width: 100%;
+    }
+    .hero-input:focus{
+        outline: none;
+    }
 
     /** Footer **/
 
