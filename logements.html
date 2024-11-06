@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/logements.css">
+    <link rel="icon" href="ressources/img/Logo 1.png" type="image/x-icon">
+    <title>Airbnb - Logements</title>
+</head>
+
+<body>
+    
+    
+    <header>
+        <a href="index.html"><img class="logo-header reveal-1" src="ressources/img/LOGO3.png" alt="Notre logo - Revenir à l'accueil"></a>
+        <div class="profil-header reveal-2">
+            <a class="btn-header" href="#">Mettre mon logement sur Airbnb</a>
+            <div class="div-profil-img">
+                <img class="profil-img" src="ressources/img/profile-circle.svg" alt="Photo de profil">
+                <div class="popup-profil-pic none">
+                    <div id="popupContent">
+                        <a href="#" class="popup-link">Connexion</a>
+                        <a href="#" class="popup-link">Inscription</a>
+                        <a href="#" class="popup-link">Cartes Cadeaux</a>
+                        <a href="#" class="popup-link">Mettre mon logement sur Airbnb</a>
+                        <a href="#" class="popup-link">Créer une expérience</a>
+                        <a href="#" class="popup-link">Centre d'aide</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <form class="hero-search reveal-2 spaced-vertically" action="">
+            <div class="hero-search-left">
+                <div class="hero-div">
+                    <label for="destination">Destination</label>
+                    <input type="text" name="destination" class="hero-input" placeholder="Rechercher une destination">
+                </div>
+                <div class="hero-div">
+                    <label for="date-arrivee">Arrivée</label>
+                    <input type="date" placeholder="Quand ?" name="date-arrivee" class="hero-input">
+                </div>
+                <div class="hero-div">
+                    <label for="date-depart">Départ</label>
+                    <input type="date" name="date-depart" class="hero-input">
+                </div>
+                <div class="hero-div">
+                    <label for="nb-personnes">Voyageurs</label>
+                    <input type="number" placeholder="Combien ?" name="nb-personnes" class="hero-input" min="1" max="10">
+                </div>
+            </div>
+            <div class="hero-search-right">
+                <button type="submit" class="hero-submit"><img class="hero-submit-img" src="ressources/img/Search.svg" alt="Faire une recherche"></button>
+            </div>
+        </form>
+
+        <nav class="logement-filtres reveal-2">
+            <a class="logement-filtre" href="#">Maisons</a>
+            <a class="logement-filtre" href="#">Appartements</a>
+            <a class="logement-filtre" href="#">Lofts</a>
+            <a class="logement-filtre" href="#">Cabanes</a>
+            <a class="logement-filtre" href="#">Piscines</a>
+            <a class="logement-filtre" href="#">Tiny Houses</a>
+            <a class="logement-filtre" href="#">Camping</a>
+
+        </nav>
+
+        <div class="imagetitre">
+            <h1 class="titre">Mer</h1>
+            <img class="imagetitre2" src="photos logements/illustrationmer.png" height="120" width="150px">
+        </div>
+    
+    
+        <div class="boxes">
+    
+            <div class="boxjaune">
+    
+                <img class="Imagebox" src="photos logements/photo 1.1.jpg" alt="photoperrosguirec1" height="250px"
+                    width="300px">
+    
+    
+                <h2 class="texte">Perros-Guirec</h2>
+                <div class="etoile">
+                    <img src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b> 4,01</b></p>
+                </div>
+                <p class="texte"><b>22-28 jui. Hôte : Antoine Dupont</b></p>
+                <h2 class="texte"><b>201 € par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+            <div class="boxjaune">
+    
+                <img class="Imagebox" src="photos logements/photo 2.1.jpg" alt="Imagemaisonairbnbauxerre1" height="250px"
+                    width="300px">
+    
+    
+    
+                <h2 class="texte">Dunkerque</h2>
+                <div class="etoile">
+                    <img class="etoile" src="photos index/etoile.png" alt="Imagemaisondunkerque1" height="40px"
+                        width="65px">
+                    <p class="texte"><b>4,13</b></p>
+                </div>
+                <p class="texte"><b>10-17 dec. Hôte : Liam Johnson</b></p>
+                <h2 class="texte"><b>199 € par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+    
+    
+            <div class="boxjaune">
+    
+                <img class="Imagebox" src="photos logements/photo 3.1.jpg" alt="Imagemaisonmarseillan" height="250px"
+                    width="300px">
+    
+                <h2 class="texte">Marseillan</h2>
+    
+                <div class="etoile">
+                    <img class="etoile" src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b>3,50</b></p>
+                </div>
+                <p class="texte"><b>8-15 aou. Hôte : Nino Forestier</b></p>
+                <h2 class="texte"><b>112 € par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+        </div>
+    
+    
+        <div class="imagetitre">
+            <h1 class="titre">Montagne </h1>
+            <img class="imagetitre2" src="photos logements/illustrationmontagne.png"
+                height="130" width="170px">
+        </div>
+    
+        <div class="boxes">
+    
+            <div class="boxorange">
+    
+                <img class="Imagebox" src="photos logements/photo 4.1.jpg" alt="Imageappartarc18001" height="250px"
+                    width="300px">
+    
+    
+                <h2 class="texte">Arc 1800</h2>
+                <div class="etoile">
+                    <img src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b> 3,99</b></p>
+                </div>
+                <p class="texte"><b>14 dec-27 decHôte : Mira Lemoine </b></p>
+                <h2 class="texte"><b>602 € par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+            <div class="boxorange">
+    
+                <img class="Imagebox" src="photos logements/photo 5.1.webp" alt="ImagemaisonFontcouvertelaToussuire"
+                    height="250px" width="300px">
+    
+    
+    
+                <h2 class="texte"> Lamoura</h2>
+                <div class="etoile">
+                    <img class="etoile" src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b>3,66</b></p>
+                </div>
+                <p class="texte"><b>3-10 jan. Hôte : Luca Rossi</b></p>
+                <h2 class="texte"><b>109 € par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+    
+    
+            <div class="boxorange">
+    
+                <img class="Imagebox" src="photos logements/photo 6.1.webp" alt="Imageappartementxonruptlongemer1"
+                    height="250px" width="300px">
+    
+                <h2 class="texte">Xonrupt-Longemer</h2>
+    
+                <div class="etoile">
+                    <img class="etoile" src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b>4,21</b></p>
+                </div>
+                <p class="texte"><b>14 dec- 3 jan. Hôte :Julien Lefebvre</b></p>
+                <h2 class="texte"><b>301 € par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+        </div>
+    
+        <div class="imagetitre">
+            <h1 class="titre">Villes </h1>
+            <img class="imagetitre2" src="photos logements/illustrationville.png" height="130" width="160px">
+        </div>
+    
+        <div class="boxes">
+    
+            <div class="boxrose">
+    
+                <img class="Imagebox" src="photos logements/photo 7.1.jpg" alt="Imagestrasbourg1" height="250px"
+                    width="300px">
+    
+    
+                <h2 class="texte">Strasbourg</h2>
+                <div class="etoile">
+                    <img src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b> 3,55</b></p>
+                </div>
+                <p class="texte"><b>13-23 nov. Hôte :Camille Laurent </b></p>
+                <h2 class="texte"><b>97€ par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+            <div class="boxrose">
+    
+                <img class="Imagebox" src="photos logements/photo 8.1.jpg" alt="Imageamien1" height="250px" width="300px">
+    
+    
+    
+                <h2 class="texte">Amiens</h2>
+                <div class="etoile">
+                    <img class="etoile" src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b>3,22</b></p>
+                </div>
+                <p class="texte"><b>10-13nov. Hôte : Mathieu Renard</b></p>
+                <h2 class="texte"><b> 60 € par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+    
+    
+            <div class="boxrose">
+    
+                <img class="Imagebox" src="photos logements/photo 9.1.jpg" alt="Imagelyon1" height="250px" width="300px">
+    
+                <h2 class="texte">Lyon</h2>
+    
+                <div class="etoile">
+                    <img class="etoile" src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b>4,04</b></p>
+                </div>
+                <p class="texte"><b>20-25 nov. Hôte : Eliott Leroy</b></p>
+                <h2 class="texte"><b>72 € par nuit</b></h2>
+    
+    
+            </div>
+        </div>
+    
+        <div class="imagetitre">
+            <h1 class="titre">Campagne </h1>
+            <img class="imagetitre2" src="photos logements/photocampagne.png" height="120" width="170px"> 
+            </div>
+        <div class="boxes">
+    
+            <div class="boxviolet">
+    
+                <img class="Imagebox" src="photos logements/photo 10.1.webp" alt="Imageestaing1" height="250px"
+                    width="300px">
+    
+    
+                <h2 class="texte">Estaing</h2>
+                <div class="etoile">
+                    <img src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b> 3,92</b></p>
+                </div>
+                <p class="texte"><b>9-19 nov. Hôte :Amelia Kovac </b></p>
+                <h2 class="texte"><b>98€ par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+            <div class="boxviolet">
+    
+                <img class="Imagebox" src="photos logements/photo 11.1.webp" alt="ImageMolietsetMaa1" height="250px"
+                    width="300px">
+    
+    
+    
+                <h2 class="texte">Moliets-et-Maa</h2>
+                <div class="etoile">
+                    <img class="etoile" src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b>4,50</b></p>
+                </div>
+                <p class="texte"><b>7-13nov. Hôte : Axel Dubois</b></p>
+                <h2 class="texte"><b> 62 € par nuit</b></h2>
+    
+    
+            </div>
+    
+    
+    
+    
+    
+    
+            <div class="boxviolet">
+    
+                <img class="Imagebox" src="photos logements/photo 12.1.webp" alt="ImageSaintHilairelesCourbes1"
+                    height="250px" width="300px">
+    
+                <h2 class="texte">Saint-Hilaire-les-Courbes</h2>
+    
+                <div class="etoile">
+                    <img class="etoile" src="photos index/etoile.png" height="40px" width="65px">
+                    <p class="texte"><b>3,79</b></p>
+                </div>
+                <p class="texte"><b>19-28 nov. Hôte : Elena Schmidt</b></p>
+                <h2 class="texte"><b>117 € par nuit</b></h2>
+    
+    
+            </div>
+    
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-div">
+                <h3 class="footer-title">Assistance</h3>
+                <a href="" class="footer-link">Centre d'aide</a>
+                <a href="" class="footer-link">AirCover</a>
+                <a href="" class="footer-link">Assistance Handicap</a>
+                <a href="" class="footer-link">Options d'annulation</a>
+                <a href="" class="footer-link">J'ai un problème de voisinage</a>
+            </div>
+            <div class="footer-top-div">
+                <h3 class="footer-title">Accueil de voyageurs</h3>
+                <a href="" class="footer-link">Mettez votre logement sur Airbnb</a>
+                <a href="" class="footer-link">AirCover pour les hôtes</a>
+                <a href="" class="footer-link">Ressources pour les hôtes</a>
+                <a href="" class="footer-link">Forum de la communauté</a>
+                <a href="" class="footer-link">Hébergement Responsable</a>
+                <a href="" class="footer-link">Participez à un cours gratuit</a>
+                <a href="" class="footer-link">Trouver un co-hôte</a>
+            </div>
+            <div class="footer-top-div">
+                <h3 class="footer-title">Airbnb</h3>
+                <a href="" class="footer-link">Newsroom</a>
+                <a href="" class="footer-link">Nouvelles fonctionnalités</a>
+                <a href="" class="footer-link">Carrières</a>
+                <a href="" class="footer-link">Investisseurs</a>
+                <a href="" class="footer-link">Cartes cadeaux</a>
+                <a href="" class="footer-link">Séjours d'urgence Airbnb.org</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <p class="footer-link">© 2024 Airbnb, Inc. · <a class="footer-link" href="">Confidentialité</a> · <a class="footer-link" href="">Conditions Générales</a> · <a class="footer-link" href="">Plan du site</a> · <a class="footer-link" href="">Fonctionnement du site</a> · <a class="footer-link" href="">Infos sur l'entreprise</a></p>
+            </div>
+            <div class="footer-bottom-right">
+                <a href="" class="footer-social-link"><img class="footer-social-link-img" src="ressources/img/instagram.png" alt="Voir notre Instagram"></a>
+                <a href="" class="footer-social-link"><img class="footer-social-link-img" src="ressources/img/facebook.png" alt="Voir notre Facebook"></a>
+                <a href="" class="footer-social-link"><img class="footer-social-link-img" src="ressources/img/twitter.png" alt="Voir notre Twitter"></a>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="explication-site none">
+        <div class="expliaction-div">
+            <button class="explication-btn" onclick="toggleExplication()">Fermer ╳ </button>
+            <h1>Bienvenue sur nos propositions !</h1>
+            <p>Vous découvrirez sur ce site les pages que nous proposerions pour améliorer le site d'AirBnB (plus particulièrement la Page d'accueil)</p>
+            <p class="littleText">Pressez la touche <u>Entrer</u> pour découvrir ce menu ou que vous soyez sur le site</p><hr>
+            <div class="row">
+                <a class="explication-lien" href="index.html">Page d'accueil</a>
+                <a class="explication-lien" href="logements.html">Logements</a>
+                <a class="explication-lien" href="evenements.html">Évènements</a>
+            </div>   
+            
+        </div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+
+</html>
