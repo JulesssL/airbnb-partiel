@@ -14,6 +14,8 @@ document.querySelector('.profil-img').addEventListener('click', function() {
     toggleProfilPic();
 });
 
+
+
 //Animation
 
 const targets = document.querySelectorAll('[class*="reveal-"]');
@@ -24,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     targets.forEach(function (target) {
         target.classList.add('reveal-visible')
     })
+    
 })
 
 
@@ -35,7 +38,7 @@ function print(a) {
 
 function toggleProfilPic() {
     document.querySelector('.popup-profil-pic').classList.toggle('none');
-    isOut =!isOut;
+    isOut =! isOut;
 }
 
 function toggleExplication() {

@@ -34,6 +34,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100dvw;
 }
 
 .spaced-vertically{
@@ -102,8 +103,8 @@ main{
     width: 100%;
     margin:auto;
     object-fit: cover;
-    
 }
+
 
 @media (max-width: 1024px) {
     .imagetitre2{

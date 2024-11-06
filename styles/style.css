@@ -215,6 +215,7 @@ header{
     justify-content: flex-start;
     gap: 6em;
     align-items: center;
+    width: 100dvw;
 }
 
 .hero-title{
