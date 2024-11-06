@@ -34,7 +34,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100dvw;
+    align-self: center;
+    gap: 5vh;
 }
 
 .spaced-vertically{

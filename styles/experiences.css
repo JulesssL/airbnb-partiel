@@ -80,6 +80,13 @@ main{
     font-family: 'Cocon';
 }
 
+.experience-description{
+    font-size: 1.2em;
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     main{
         margin: 5vh 0;

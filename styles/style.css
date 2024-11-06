@@ -95,6 +95,13 @@ a{
     justify-content: center;
 }
 
+.title-page{
+    font-size: 2em;
+    color: #e85c0d;
+    font-family: 'Cocon';
+    margin: 0 auto;
+}
+
 
 /** Header **/
 
